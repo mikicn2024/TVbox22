@@ -308,7 +308,6 @@
       "playerType": 1,
       "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
     }
-   
     {
       "name": "新Live",
       "type": 0,
