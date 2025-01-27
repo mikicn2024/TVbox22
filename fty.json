@@ -307,20 +307,6 @@
       "url": "https://m3u.ibert.me/txt/y_g.txt",
       "playerType": 1,
       "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
-    },
-    {
-      "name": "新Live",
-      "type": 0,
-      "url": "https://ghproxy.cc/https://raw.githubusercontent.com/ZTHA000/tvbox/main/tv/新福利来了.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
-    },
-    {
-      "name": "新Live2",
-      "type": 0,
-      "url": "https://ghproxy.cc/https://raw.githubusercontent.com/ZTHA000/tvbox/main/tv/福利剧情.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
     }
   ],
   "flags": [
