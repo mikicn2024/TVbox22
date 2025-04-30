@@ -2,19 +2,19 @@
   "storeHouse": [
     {
       "sourceName": "🦉个人仓",
-      "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/TVbox22/main/my.json"
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/mikicn2024/TVbox22@main/my.json"
     },
     {
       "sourceName": "🐋大佬仓",
-      "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/Tvbox1/main/大佬.json"
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/mikicn2024/Tvbox1@main/大佬.json"
     },
     {
       "sourceName": "🥗聚合仓",
-      "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/Tvbox1/main/优质.json"
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/mikicn2024/Tvbox1@main/优质.json"
     },
     {
       "sourceName": "🔞聚合仓",
-      "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/Tvbox1/main/cr.json"
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/mikicn2024/Tvbox1@main/cr.json"
     }
   ]
 }
