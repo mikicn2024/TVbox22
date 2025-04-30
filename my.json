@@ -2,11 +2,11 @@
   "urls": [
     {
       "name": "👿饭太硬",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/TVbox22/main/fty.json"
+      "url": "https://cdn.jsdelivr.net/gh/mikicn2024/TVbox22@main/fty.json"
     },
         {
       "name": "👿摸鱼",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/TVbox22/main/moyu/moyu.json"
+      "url": "https://cdn.jsdelivr.net/gh/mikicn2024/TVbox22@main/moyu/moyu.json"
     },
     {
       "name": "🐱喵影视",
@@ -22,7 +22,7 @@
     },
     {
       "name": "☃️小米",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/TVbox22/main/xiaomi.json"
+      "url": "https://cdn.jsdelivr.net/gh/mikicn2024/TVbox22@main/xiaomi.json"
     },
     {
       "name":"PG大佬顶级",
