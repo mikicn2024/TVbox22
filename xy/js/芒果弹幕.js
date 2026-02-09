@@ -1,18 +1,18 @@
 var rule = {
-    title: '鐧惧繖鏃犳灉[瀹榏',
+    title: '百忙无果[官]',
     host: 'https://pianku.api.%6d%67%74%76.com',
     homeUrl: '',
     // searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/pc/search/v1?q=**&pn=fypage&pc=10',
-    // 鏂扮増鎺ュ彛鎼滅储鍙樻垚v2骞朵笖鍔犱簡楠岃瘉锛岃泲鐤�
+    // 新版接口搜索变成v2并且加了验证，蛋疼
     // searchUrl: 'https://mobileso.bz.mgtv.com/pc/search/v2?allowedRC=1&src=mgtv&did=cf03b959-6945-4cb6-bcb3-88762459354d&timestamp=2024-06-21T15%3A52%3A55Z&signVersion=1&signNonce=8dae67a1fafc4bda984ec8deb47666ad&q=**&pn=fypage&pc=10&corr=1&_support=10000000&signature=4e27fddcd2a1a66d6c1764ed6b74bab7',
-    // 鐢ㄦ墜鏈虹殑鍚э紝鎼炰笉瀹氳繖涓�
+    // 用手机的吧，搞不定这个
     searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/msite/search/v2?q=**&pn=fypage&pc=10',
     detailUrl: 'https://pcweb.api.mgtv.com/episode/list?page=1&size=50&video_id=fyid',
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
     multi: 1,
-    // 鍒嗙被閾炬帴fypage鍙傛暟鏀寔1涓�()琛ㄨ揪寮�
+    // 分类链接fypage参数支持1个()表达式
     // https://www.mgtv.com/lib/3?lastp=list_index&kind=a1&year=all&chargeInfo=a1&sort=c2
     url: '/rider/list/pcweb/v3?platform=pcweb&channelId=fyclass&pn=fypage&pc=80&hudong=1&_support=10000000&kind=a1&area=a1',
     filter_url: 'year={{fl.year or "all"}}&sort={{fl.sort or "all"}}&chargeInfo={{fl.chargeInfo or "all"}}',
@@ -20,46 +20,46 @@ var rule = {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    class_name: '鐢佃鍓�&鐢靛奖&缁艰壓&鍔ㄦ极&绾綍鐗�&鏁欒偛&灏戝効',
+    class_name: '电视剧&电影&综艺&动漫&纪录片&教育&少儿',
     class_url: '2&3&1&50&51&115&10',
     filter: {
         "1": [{
             "key": "chargeInfo",
-            "name": "浠樿垂绫诲瀷",
+            "name": "付费类型",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
-                "n": "鍏嶈垂",
+                "n": "免费",
                 "v": "b1"
             }, {
                 "n": "vip",
                 "v": "b2"
             }, {
-                "n": "VIP鐢ㄥ埜",
+                "n": "VIP用券",
                 "v": "b3"
             }, {
-                "n": "浠樿垂鐐规挱",
+                "n": "付费点播",
                 "v": "b4"
             }]
         }, {
             "key": "sort",
-            "name": "鎺掑簭",
+            "name": "排序",
             "value": [{
-                "n": "鏈€鏂�",
+                "n": "最新",
                 "v": "c1"
             }, {
-                "n": "鏈€鐑�",
+                "n": "最热",
                 "v": "c2"
             }, {
-                "n": "鐭ヤ箮楂樺垎",
+                "n": "知乎高分",
                 "v": "c4"
             }]
         }, {
             "key": "year",
-            "name": "骞翠唬",
+            "name": "年代",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
                 "n": "2025",
@@ -131,41 +131,41 @@ var rule = {
         }],
         "2": [{
             "key": "chargeInfo",
-            "name": "浠樿垂绫诲瀷",
+            "name": "付费类型",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
-                "n": "鍏嶈垂",
+                "n": "免费",
                 "v": "b1"
             }, {
                 "n": "vip",
                 "v": "b2"
             }, {
-                "n": "VIP鐢ㄥ埜",
+                "n": "VIP用券",
                 "v": "b3"
             }, {
-                "n": "浠樿垂鐐规挱",
+                "n": "付费点播",
                 "v": "b4"
             }]
         }, {
             "key": "sort",
-            "name": "鎺掑簭",
+            "name": "排序",
             "value": [{
-                "n": "鏈€鏂�",
+                "n": "最新",
                 "v": "c1"
             }, {
-                "n": "鏈€鐑�",
+                "n": "最热",
                 "v": "c2"
             }, {
-                "n": "鐭ヤ箮楂樺垎",
+                "n": "知乎高分",
                 "v": "c4"
             }]
         }, {
             "key": "year",
-            "name": "骞翠唬",
+            "name": "年代",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
                 "n": "2025",
@@ -237,41 +237,41 @@ var rule = {
         }],
         "3": [{
             "key": "chargeInfo",
-            "name": "浠樿垂绫诲瀷",
+            "name": "付费类型",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
-                "n": "鍏嶈垂",
+                "n": "免费",
                 "v": "b1"
             }, {
                 "n": "vip",
                 "v": "b2"
             }, {
-                "n": "VIP鐢ㄥ埜",
+                "n": "VIP用券",
                 "v": "b3"
             }, {
-                "n": "浠樿垂鐐规挱",
+                "n": "付费点播",
                 "v": "b4"
             }]
         }, {
             "key": "sort",
-            "name": "鎺掑簭",
+            "name": "排序",
             "value": [{
-                "n": "鏈€鏂�",
+                "n": "最新",
                 "v": "c1"
             }, {
-                "n": "鏈€鐑�",
+                "n": "最热",
                 "v": "c2"
             }, {
-                "n": "鐭ヤ箮楂樺垎",
+                "n": "知乎高分",
                 "v": "c4"
             }]
         }, {
             "key": "year",
-            "name": "骞翠唬",
+            "name": "年代",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
                 "n": "2025",
@@ -343,41 +343,41 @@ var rule = {
         }],
         "50": [{
             "key": "chargeInfo",
-            "name": "浠樿垂绫诲瀷",
+            "name": "付费类型",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
-                "n": "鍏嶈垂",
+                "n": "免费",
                 "v": "b1"
             }, {
                 "n": "vip",
                 "v": "b2"
             }, {
-                "n": "VIP鐢ㄥ埜",
+                "n": "VIP用券",
                 "v": "b3"
             }, {
-                "n": "浠樿垂鐐规挱",
+                "n": "付费点播",
                 "v": "b4"
             }]
         }, {
             "key": "sort",
-            "name": "鎺掑簭",
+            "name": "排序",
             "value": [{
-                "n": "鏈€鏂�",
+                "n": "最新",
                 "v": "c1"
             }, {
-                "n": "鏈€鐑�",
+                "n": "最热",
                 "v": "c2"
             }, {
-                "n": "鐭ヤ箮楂樺垎",
+                "n": "知乎高分",
                 "v": "c4"
             }]
         }, {
             "key": "year",
-            "name": "骞翠唬",
+            "name": "年代",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
                 "n": "2025",
@@ -449,41 +449,41 @@ var rule = {
         }],
         "51": [{
             "key": "chargeInfo",
-            "name": "浠樿垂绫诲瀷",
+            "name": "付费类型",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
-                "n": "鍏嶈垂",
+                "n": "免费",
                 "v": "b1"
             }, {
                 "n": "vip",
                 "v": "b2"
             }, {
-                "n": "VIP鐢ㄥ埜",
+                "n": "VIP用券",
                 "v": "b3"
             }, {
-                "n": "浠樿垂鐐规挱",
+                "n": "付费点播",
                 "v": "b4"
             }]
         }, {
             "key": "sort",
-            "name": "鎺掑簭",
+            "name": "排序",
             "value": [{
-                "n": "鏈€鏂�",
+                "n": "最新",
                 "v": "c1"
             }, {
-                "n": "鏈€鐑�",
+                "n": "最热",
                 "v": "c2"
             }, {
-                "n": "鐭ヤ箮楂樺垎",
+                "n": "知乎高分",
                 "v": "c4"
             }]
         }, {
             "key": "year",
-            "name": "骞翠唬",
+            "name": "年代",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
                 "n": "2025",
@@ -555,41 +555,41 @@ var rule = {
         }],
         "115": [{
             "key": "chargeInfo",
-            "name": "浠樿垂绫诲瀷",
+            "name": "付费类型",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
-                "n": "鍏嶈垂",
+                "n": "免费",
                 "v": "b1"
             }, {
                 "n": "vip",
                 "v": "b2"
             }, {
-                "n": "VIP鐢ㄥ埜",
+                "n": "VIP用券",
                 "v": "b3"
             }, {
-                "n": "浠樿垂鐐规挱",
+                "n": "付费点播",
                 "v": "b4"
             }]
         }, {
             "key": "sort",
-            "name": "鎺掑簭",
+            "name": "排序",
             "value": [{
-                "n": "鏈€鏂�",
+                "n": "最新",
                 "v": "c1"
             }, {
-                "n": "鏈€鐑�",
+                "n": "最热",
                 "v": "c2"
             }, {
-                "n": "鐭ヤ箮楂樺垎",
+                "n": "知乎高分",
                 "v": "c4"
             }]
         }, {
             "key": "year",
-            "name": "骞翠唬",
+            "name": "年代",
             "value": [{
-                "n": "鍏ㄩ儴",
+                "n": "全部",
                 "v": "all"
             }, {
                 "n": "2025",
@@ -698,12 +698,12 @@ var rule = {
             };
         }
     }),
-    // 鎵嬪姩璋冪敤瑙ｆ瀽璇锋眰json鐨剈rl,姝azy涓嶆柟渚�
+    // 手动调用解析请求json的url,此lazy不方便
     // lazy:'js:print(input);fetch_params.headers["user-agent"]=MOBILE_UA;let html=request(input);let rurl=html.match(/window\\.open\\(\'(.*?)\',/)[1];rurl=urlDeal(rurl);input={parse:1,url:rurl};',
-    // 鎺ㄨ崘:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
-    涓€绾�: 'json:data.hitDocs;title;img;updateInfo||rightCorner.text;playPartId',
-    // 涓€绾�:'json:data.hitDocs;title;img;updateInfo;playPartId',
-    浜岀骇: $js.toString(() => {
+    // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
+    一级: 'json:data.hitDocs;title;img;updateInfo||rightCorner.text;playPartId',
+    // 一级:'json:data.hitDocs;title;img;updateInfo;playPartId',
+    二级: $js.toString(() => {
         fetch_params.headers.Referer = "https://www.mgtv.com";
         fetch_params.headers["User-Agent"] = MOBILE_UA;
         pdfh = jsp.pdfh;
@@ -721,9 +721,9 @@ var rule = {
         fetch_params.headers["User-Agent"] = MOBILE_UA;
         html = request(ourl);
         if (html.includes("window.location =")) {
-            print("寮€濮嬭幏鍙杘url");
+            print("开始获取ourl");
             ourl = pdfh(html, "meta[http-equiv=refresh]&&content").split("url=")[1];
-            print("鑾峰彇鍒皁url:" + ourl);
+            print("获取到ourl:" + ourl);
             html = request(ourl)
         }
         try {
@@ -732,17 +732,17 @@ var rule = {
             let actor = "",
                 director = "",
                 time = "";
-            if (/鎾嚭鏃堕棿/.test(details)) {
+            if (/播出时间/.test(details)) {
                 actor = pdfh(html, "p:eq(5)&&Text").substr(0, 25);
                 director = pdfh(html, "p:eq(4)&&Text");
                 time = pdfh(html, "p:eq(3)&&Text")
             } else {
                 actor = pdfh(html, "p:eq(4)&&Text").substr(0, 25);
                 director = pdfh(html, "p:eq(3)&&Text");
-                time = "宸插畬缁�"
+                time = "已完结"
             }
             let _img = pd(html, ".video-img&&img&&src");
-            let JJ = pdfh(html, ".desc&&Text").split("绠€浠嬶細")[1];
+            let JJ = pdfh(html, ".desc&&Text").split("简介：")[1];
             let _desc = time;
             VOD.vod_name = pdfh(html, ".vt-txt&&Text");
             VOD.type_name = pdfh(html, "p:eq(0)&&Text").substr(0, 6);
@@ -756,7 +756,7 @@ var rule = {
                 VOD.vod_name = VOD.type_name;
             }
         } catch (e) {
-            log("鑾峰彇褰辩墖淇℃伅鍙戠敓閿欒:" + e.message)
+            log("获取影片信息发生错误:" + e.message)
         }
 
         function getRjpg(imgUrl, xs) {
@@ -799,7 +799,7 @@ var rule = {
                 })
             }
         } else {
-            print(input + "鏆傛棤鐗囨簮")
+            print(input + "暂无片源")
         }
         VOD.vod_play_from = "mgtv";
         VOD.vod_play_url = d.map(function(it) {
@@ -808,7 +808,7 @@ var rule = {
         setResult(d);
     }),
 
-    鎼滅储: $js.toString(() => {
+    搜索: $js.toString(() => {
         fetch_params.headers.Referer = "https://www.mgtv.com";
         fetch_params.headers["User-Agent"] = MOBILE_UA;
         let d = [];
