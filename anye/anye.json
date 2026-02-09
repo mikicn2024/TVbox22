@@ -1,29 +1,94 @@
 {
-  "spider": "./nm.jar",
   "wallpaper": "https://bing.img.run/rand_uhd.php",
   "logo": "https://11405.kstore.space/bz/xz.jpg",
   "sites": [
     {
-      "key": "夏夏",
-      "name": "Q群1016555099",
-      "jar": "./lib/spider.jar",
+      "key": "新腾极4k",
+      "name": "暗黑4k臻彩HDR",
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
       "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
+      "searchable": 1
+      "quickSearch":1,
+      "filterable":1,
+      "order_num":0,
+      "changeable":0,
+      "ext":"http://14.103.129.80:5656/暗黑4k奇迹/lib/暗黑4k奇迹.js"
     },
     {
-      "key": "配置中心",
-      "name": "配置｜中心",
-      "type": 3,
-      "api": "csp_Config",
-      "jar": "./lib/spider.jar",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
+      "key":"木偶",
+      "name":"💯木偶暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1,
+      "filterable":1,
+      "ext":{"sp":"Muou",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":25
+    },
+    {
+      "key":"二小",
+      "name":"💯二小暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1,
+      "filterable":1,
+      "ext":{"sp":"ErXiao",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":25
+    },
+    {
+      "key":"双星",
+      "name":"💯双星暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "filterable":1,
+      "changeable":0,
+      "style":{"type":"list"},
+      "ext":{"sp":"Star2",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":25
+    },
+    {"key":"玩偶",
+      "name":"💯玩偶暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "filterable":1,
+      "changeable":1,
+      "ext":{"sp":"Wogg",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":30
+    },
+    {"key":"立播版",
+      "name":"💯立播暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "filterable":1,
+      "changeable":1,
+      "ext":{"sp":"Libvio",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":30
     },
     {
       "key": "瓜子影视",
@@ -36,605 +101,339 @@
       "filterable": 1
     },
     {
-      "key": "pt",
-      "name": "移动｜星源",
-      "type": 1,
-      "api": "http://8.155.50.80:9671/pt.php/provide/vod/",
-      "playUrl": "json:http://8.155.50.80/xiayexk.php?url=",
-      "searchable": 1,
-      "changeable": 1
+      "key":"蜡笔",
+      "name":"💯蜡笔暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1,
+      "filterable":1,
+      "ext":{"sp":"Labi",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":25
     },
     {
-      "key": "腾讯弹幕",
-      "name": "讯讯｜星源",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/腾讯弹幕.js"
+      "key":"多多",
+      "name":"💯多多暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1,
+      "filterable":1,
+      "ext":{"sp":"DuoDuo",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":25
     },
     {
-      "key": "芒果弹幕",
-      "name": "果果｜星源",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/芒果弹幕.js"
+      "key":"小飒",
+      "name":"💯小飒暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1,
+      "filterable":1,
+      "ext":{"sp":"Xsayang",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":25
+    },
+{
+  "key":"至臻",
+  "name"至臻暗黑4k免扫",
+  "type":3,
+  "api":"csp_AweSomeGuard",
+  "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+  "searchable":1,
+  "quickSearch":1,
+  "changeable":1,
+  "filterable":1,
+  "ext":{"sp":"ZhiZhen",
+    "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+    "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+    "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+  "timeout":25
+},
+{
+  "key":"虎斑",
+  "name":"💯虎斑暗黑4k免扫",
+  "type":3,
+  "api":"csp_AweSomeGuard",
+  "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+  "searchable":1,
+  "quickSearch":1,
+  "changeable":1,
+  "filterable":1,
+  "ext":{"sp":"HuBan",
+    "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+    "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+    "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},"timeout":25
+},    
+{
+  "key":"SeedHub",
+  "name":"💯种子暗黑4k免扫",
+  "type":3,
+  "api":"csp_AweSomeGuard",
+  "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+  "searchable":1,
+  "quickSearch":1,
+  "changeable":1,
+  "filterable":1,
+  "ext":{"sp":"SeedHub",
+    "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+    "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+    "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+  "timeout":25
+},
+{
+  "key":"光影",
+  "name":"💯光影暗黑4k免扫",
+  "type":3,
+  "api":"csp_AweSomeGuard",
+  "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+  "searchable":1,
+  "filterable":1,
+  "changeable":0,
+  "ext":{"sp":"Guanying",
+    "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+    "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+    "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+  "timeout":30
+},
+    {
+      "key":"云集",
+      "name":"💯云集暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1,
+      "filterable":1,
+      "ext":{"sp":"YunJi",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":25
     },
     {
-      "key": "哔哩",
-      "name": "小哩｜星源",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/哔哩视频.js"
+      "key":"盘他",
+      "name":"💯移动暗黑4k免扫",
+      "type":3,
+      "api":"csp_AweSomeGuard",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunok.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1,
+      "filterable":1,
+      "ext":{"sp":"Panta",
+        "cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
+        "uc_cookie":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "baidu_cookie":"http://14.103.129.80:5656/暗黑4k奇迹/lib/bd.txt"},
+      "timeout":25
     },
     {
-      "key": "bilibili",
-      "name": "B站｜星源",
-      "type": 3,
-      "api": "./lib/哔哩合集.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
+      "key":"移动",
+      "name":"HDR免扫移动4k",
+      "type":3,
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/yunY.jar",
+      "api":"csp_YDjisu",
+      "searchable":1,
+      "changeable":1
     },
     {
-      "key": "咪咕",
-      "name": "小咕｜星源",
-      "type": 1,
-      "api": "http://8.155.50.80:9671/咪咕.php",
-      "playUrl": "json:http://8.155.50.80/xiayexk.php?url=",
-      "changeable": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "key":"瓜子影视",
+      "name":"🌨瓜子2k蓝光",
+      "type":3,
+      "api":"csp_Gz360",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/tvkj.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
     },
     {
-      "key": "小乐",
-      "name": "小乐｜星源",
-      "type": 1,
-      "api": "http://8.155.50.80:9671/ls.php/vod",
-      "playUrl": "http://8.155.50.80/xiayexk.php?url=",
-      "changeable": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "key":"小猪"
+      ,"name":"🌨小猪2k蓝光",
+      "type":3,
+      "quickSearch":1,
+      "api":"csp_AppQi",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/kj1203.jar",
+      "ext":{"site":"http://14.103.129.80:5656/暗黑4k奇迹/lib/tengxunyun.txt",
+        "dataKey":"seb5tq9mykp2w9ry",
+        "dataIv":"seb5tq9mykp2w9ry",
+        "ua":"okhttp/3.10.0"}
     },
     {
-      "key": "华数",
-      "name": "星华｜星源",
-      "type": 3,
-      "api": "./lib/华数TV.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
+      "key":"农牧",
+      "name":"🌨农牧2k蓝光",
+      "type":3,
+      "api":"csp_XYQHiker",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/kj1203.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"http://14.103.129.80:5656/暗黑4k奇迹/lib/农牧影视.json"},
+    {"key":"热播影视",
+      "name":"🌨热播2k蓝光",
+      "type":3,"api":"csp_AppRJ",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/tvkj.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":{"url":"http://v.rbotv.cn"}
     },
     {
-      "key": "爱奇艺弹幕",
-      "name": "小艺｜星源",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/爱奇艺弹幕.js"
+      "key":"AppQi1",
+      "name":"🌨盈云4K蓝光",
+      "type":3,
+      "api":"csp_AppQi",
+      "changeable":"1",
+      "quickSearch":0,
+      "filterable":1,
+      "ext":"https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt|sda1231sasddad21|okhttp/3.10.0",
+      "jar":"https://img2.gelonghui.com/library/13bd3-7518cfc8-98dd-4e8f-afc1-5f697fbf01fb.png;md5;13bd3e6c4c887d3f139a347625a08bee"
     },
     {
-      "key": "优酷弹幕",
-      "name": "小酷｜星源",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷弹幕.js"
+      "key":"顾我",
+      "name":"🌨酷酷4K蓝光",
+      "type":3,
+      "api":"csp_AppQi",
+      "changeable":"1",
+      "quickSearch":0,
+      "filterable":1,
+      "ext":"https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt|ca94b06ca3c7d80e|okhttp/3.10.0",
+      "jar":"https://img2.gelonghui.com/library/13bd3-7518cfc8-98dd-4e8f-afc1-5f697fbf01fb.png;md5;13bd3e6c4c887d3f139a347625a08bee"
+    },
+    {"key":"苹果影视",
+      "name":"🌨苹果2k蓝光",
+      "type":3,
+      "api":"csp_LiteApple",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/tvkj.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
     },
     {
-      "key": "哔哩视频",
-      "name": "哔哩｜视频",
-      "type": 3,
-      "api": "csp_BiliYS",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./lib/哔哩视频.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      "key":"量子",
+      "name":"🌨量子2k蓝光",
+      "type":1,
+      "api":"http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "playurl":"json:https://lziplayer.com/?url=",
+      "categories":["国产剧","国产动漫","泰国剧","台湾剧","香港剧","欧美剧","韩国剧","日本剧","动漫","体育","剧情片","动作片","爱情片","喜剧片"]
+    },
+    {
+      "key":"紫圣",
+      "name":"🌨紫圣2k蓝光",
+      "type":3,
+      "quickSearch":1,
+      "api":"csp_AppGet",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/tvkj.jar",
+      "ext":{
+        "url":"http://www.zjcvod.com",
+        "site":"",
+        "dataKey":"ab4e9a421675f14b",
+        "dataIv":"ab4e9a421675f14b",
+        "deviceId":"",
+        "version":"",
+        "ua":""
       }
     },
     {
-      "key": "哔哩合集",
-      "name": "哔哩｜合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "./lib/哔哩合集.json"
-      },
-      "timeout": 10
-    },
-    {
-      "key": "玩偶",
-      "name": "玩偶｜4K",
-      "type": 3,
-      "api": "csp_Wogg",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://www.wogg.lol",
-          "https://wogg.xxooo.cf",
-          "https://www.wogg.one",
-          "https://wogg.333232.xyz",
-          "https://woggpan.888484.xyz"
-        ]
+      "key":"蔬菜",
+      "name":"🌨赤刃2k蓝光",
+      "type":3,
+      "quickSearch":1,
+      "api":"csp_AppGet",
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/tvkj.jar",
+      "ext":{
+        "url":"http://huohu.yihn.cc",
+        "site":"",
+        "dataKey":"huohushipingetap",
+        "dataIv":"huohushipingetap",
+        "deviceId":"",
+        "version":"140",
+        "ua":""
       }
     },
     {
-      "key": "清影",
-      "name": "清影｜4K",
-      "type": 3,
-      "api": "csp_PanWebShareCloudQY",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "http://www.revohd.com"
-        ]
+      "key":"冥王",
+      "name":"🌨冥王2k蓝光",
+      "type":3,
+      "api":"csp_XBPQ",
+      "searchable":1,
+      "jar":"http://14.103.129.80:5656/暗黑4k奇迹/jar/xs.jar;md5;f17d6e52c0e006b86770eba848a53949",
+      "quickSearch":1,
+      "filterable":1,
+      "ext":{
+        "线路数组":"<a data-toggle=\"tab\"&&/a>",
+        "线路标题":">&&<",
+        "分类url":"http://dyxz.tv/list/{cateId}_{catePg}.html",
+        "分类":"电影$1#电视剧$2#动漫$3#综艺$4"
       }
     },
     {
-      "key": "快映",
-      "name": "快映｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "http://xsayang.fun:12512"
-        ]
-      }
+      "key":"星芽2",
+      "name":"短剧星芽",
+      "type":3,
+      "api":"https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "ext":"https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/qhXX5BDH"
     },
     {
-      "key": "木偶",
-      "name": "木偶｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://123.666291.xyz",
-          "https://666.666291.xyz",
-          "https://www.muou.site",
-          "https://www.muou.asia"
-        ]
-      }
+      "key":"甜圈",
+      "name":"逆袭短剧",
+      "type":3,
+      "api":"csp_DuanJuCgg",
+      "jar":"http://14.103.129.80:5656/奇迹云2kmax/jar/jd.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "style":{"type":"rect","ratio":1.309},
+      "ext":{"siteUrl":"https://mov.cenguigui.cn",
+        "msg":"124421jh8lk39646pgruC6dATnyTtf6ewyst71opcsJfticyXxWGbU5x4zxzEQ5LWhshM7QSmwiAgf0H4RN8rjjuUPQPPsiTj8Yz48I27L5SoL/Lbg70J558Qnv6Dtdt9BeeyWciQnnqApDLzxuKF+nEHryocRY26k1efEO43zCfP69tVyTyWvQ/MT7q/J7KDiOdwg0CGUc0cPhVc3AiwU6ZXIapEVCaeJ1OkLO2LzfrGsCulTGV9LrN4N8omBYpohl4BgdDhg8SQwEh9MoFXC1M2AqzePjz+itosXK3VQ3Ch4ba88bCsZSAs56JWl570OQ5t3yuPDslC75Y1p4Y9x9OOnztqiDqRbgpaXR5KWKYWfjU9T1H2SXW3uAmq9Z2GQKDrAQT7gB35NJeagOshSRZScjiS3Ss7lf/6iMfs9NInk9DfLj/H/9HCcIDRr1AG/ZGgLLtB/doGr0l/oENwrHwu+kLjzqWcmiAPcaLdbeeK18hxlYJBvXIlfjoWgopvFnm7338rR8k7EwtnU39fRJph5WcuPdvL5ZivGdWO+EYQ47zLhX038Vcju8iF3omFTj5W6D9FEOXryKIMCBgi8G5t+I73iaFCGGzTA=="}
     },
     {
-      "key": "蜡笔",
-      "name": "蜡笔｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://www.labi88.sbs",
-          "https://feimao666.fun",
-          "http://feimao888.fun"
-        ]
-      }
+      "key":"Bili2",
+      "name":"宝宝趣学",
+      "type":3,
+      "api":"csp_Bili2",
+      "searchable":0,
+      "jar":"http://14.103.129.80:5656/奇迹云2kmax/jar/qx.jar;md5;c1df7f8c9290d42a911f1a09e4f625f3",
+      "ext":"https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/CEE3NFMS"
     },
     {
-      "key": "至臻",
-      "name": "至臻｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://mihdr.top",
-          "https://www.miqk.cc",
-          "https://xiaomiai.site",
-          "https://xiaomi666.fun",
-          "https://www.mihdr.top",
-          "https://www.zhizhenpan.fun"
-        ]
-      }
-    },
+      "key":"幼儿",
+      "name":"幼儿教育",
+      "type":3,
+      "api":"csp_Bili",
+      "jar":"http://14.103.129.80:5656/奇迹云2kmax/jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable":0,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"http://14.103.129.80:5656/奇迹云2kmax/lib/幼.txt"},
     {
-      "key": "多多",
-      "name": "多多｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://tv.yydsys.top",
-          "https://tv.yydsys.cc",
-          "https://tv.214521.xyz"
-        ]
-      }
+      "key":"小学",
+      "name":"小学教育",
+      "type":3,
+      "api":"csp_Bili",
+      "jar":"http://14.103.129.80:5656/奇迹云2kmax/jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable":0,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"http://14.103.129.80:5656/奇迹云2kmax/lib/小.txt"
     },
-    {
-      "key": "欧哥",
-      "name": "欧哥｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://woog.nxog.eu.org"
-        ]
-      }
-    },
-    {
-      "key": "二小",
-      "name": "二小｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://xhww.net",
-          "https://erxiaofn.site",
-          "https://erxiaofn.click",
-          "https://www.xhww.net"
-        ]
-      }
-    },
-    {
-      "key": "虎斑",
-      "name": "虎斑｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "http://103.45.162.207:20720"
-        ]
-      }
-    },
-    {
-      "key": "雷鲸",
-      "name": "雷鲸｜4K",
-      "type": 3,
-      "api": "csp_PanWebShareCloudLJ",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": "./json/lj.json?"
-    },
-    {
-      "key": "概念",
-      "name": "海绵｜4k",
-      "type": 3,
-      "api": "csp_PanWebShareCloudHM",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": "./json/hm.json?"
-    },
-    {
-      "key": "Pan1",
-      "name": "123｜4k",
-      "type": 3,
-      "api": "csp_PanWebShareCloud123",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": "./json/pan1.json?"
-    },
-    {
-      "key": "趣盘",
-      "name": "趣盘｜4K",
-      "type": 3,
-      "api": "csp_PanWebQu",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": {
-        "url": "https://www.qupanshe.com"
-      }
-    },
-    {
-      "key": "夸父",
-      "name": "夸父｜4K",
-      "type": 3,
-      "api": "csp_PanWebShareCloudKF",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "./lib/kf.json"
-    },
-    {
-      "key": "移动",
-      "name": "盘他｜4k",
-      "type": 3,
-      "api": "csp_YD",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "双星",
-      "name": "双星｜4K",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/双星.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "人人电影网",
-      "name": "人人｜4K",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/人人电影网.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "我的UC",
-      "name": "我的｜UC",
-      "type": 3,
-      "api": "csp_PanUc",
-      "jar": "./lib/spider.jar",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "./lib/ucShare.json"
-    },
-    {
-      "key": "夸克云盘",
-      "name": "我的｜夸克",
-      "type": 3,
-      "api": "csp_PanQuark",
-      "jar": "./lib/spider.jar",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "./lib/quarkShare.json"
-    },
-    {
-      "key": "百度云盘",
-      "name": "我的｜百度",
-      "type": 3,
-      "api": "csp_PanBaiDu",
-      "jar": "./lib/spider.jar",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "阿里云盘",
-      "name": "我的｜阿里",
-      "jar": "./lib/spider.jar",
-      "type": 3,
-      "api": "csp_PanAli",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "./lib/aliShare.json"
-    },
-    {
-      "key": "糖果",
-      "name": "糖果｜搜索",
-      "jar": "./lib/spider.jar",
-      "type": 3,
-      "api": "csp_TGSou",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "盘搜",
-      "name": "盘搜｜搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "阿里盘搜",
-      "name": "阿里｜搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "cloudDrives": "aliyun"
-      }
-    },
-    {
-      "key": "夸克盘搜",
-      "name": "夸克｜搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "cloudDrives": "quark"
-      }
-    },
-    {
-      "key": "UC盘搜",
-      "name": "UC｜搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "cloudDrives": "uc"
-      }
-    },
-    {
-      "key": "天翼盘搜",
-      "name": "天翼｜搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "cloudDrives": "tianyi"
-      }
-    },
-    {
-      "key": "123盘搜",
-      "name": "123｜搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "cloudDrives": "123"
-      }
-    },
-    {
-      "key": "百度盘搜",
-      "name": "百度｜搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "jar": "./lib/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "cloudDrives": "baidu"
-      }
-    },
-    {
-      "key": "米搜",
-      "name": "米搜｜4K",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/米搜.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "百酷",
-      "name": "百酷｜搜索",
-      "jar": "./lib/spider.jar",
-      "type": 3,
-      "api": "csp_Baiku"
-    },
-    {
-      "key": "push_agent",
-      "name": "手机｜推送",
-      "jar": "./lib/spider.jar",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0
-    }
-  ],
   "parses": [
     {
       "name": "解析聚合",
