@@ -2,11 +2,11 @@
   "urls": [
     {
       "name": "👿饭太硬",
-      "url": "https://cdn.jsdelivr.net/gh/mikicn2024/TVbox22@main/fty.json"
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/TVbox22/main/fty.json"
     },
         {
       "name": "👿摸鱼",
-      "url": "https://cdn.jsdelivr.net/gh/mikicn2024/TVbox22@main/moyu/moyu.json"
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/mikicn2024/TVbox22/main/moyu/moyu.json"
     },
     {
       "name": "🐱喵影视",
