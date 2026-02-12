@@ -28,7 +28,7 @@
       "ext": {
         "sp": "Muou",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -46,7 +46,7 @@
       "ext": {
         "sp": "ErXiao",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -66,7 +66,7 @@
       "ext": {
         "sp": "Star2",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -83,7 +83,7 @@
       "ext": {
         "sp": "Wogg",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 30
@@ -100,7 +100,7 @@
       "ext": {
         "sp": "Libvio",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 30
@@ -128,7 +128,7 @@
       "ext": {
         "sp": "Labi",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -146,7 +146,7 @@
       "ext": {
         "sp": "DuoDuo",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -164,7 +164,7 @@
       "ext": {
         "sp": "Xsayang",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -182,7 +182,7 @@
       "ext": {
         "sp": "ZhiZhen",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -200,7 +200,7 @@
       "ext": {
         "sp": "HuBan",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -218,7 +218,7 @@
       "ext": {
         "sp": "SeedHub",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -235,7 +235,7 @@
       "ext": {
         "sp": "Guanying",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 30
@@ -253,7 +253,7 @@
       "ext": {
         "sp": "YunJi",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
@@ -271,7 +271,7 @@
       "ext": {
         "sp": "Panta",
         "cookie": "http://14.103.129.80:5656/暗黑4k奇迹/lib/yunAkick.jpg",
-        "uc_cookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "uc_cookie": "./lib/uc.png",
         "baidu_cookie": "./lib/bd.txt"
       },
       "timeout": 25
