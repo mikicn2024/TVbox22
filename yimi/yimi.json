@@ -1,0 +1,230 @@
+
+{
+  "notice": "公众号┃一米臻享 · 软件完全免费",
+  "spider": "http://192.140.163.220:9986/svip/spider.jar",
+  "wallpaper": "https://api.btstu.cn/sjbz/api.php",
+  "logo": "https://gitee.com/yimi321/ymys/raw/master/lib/yimi.gif",
+  "sites": [
+    {
+      "key": "腾讯视频",
+      "name": "壹米┃4K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/txtv.js"
+    },
+    {
+      "key": "新腾极4k",
+      "name": "新腾┃4K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "./lib/xtxtv.js"
+    },
+    {
+      "key": "芒果弹幕",
+      "name": "芒芒┃4K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/xmgtv.js"
+    },
+    {
+      "key": "芒果视频",
+      "name": "果果┃4K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/mgtv.js"
+    },
+    {
+      "key": "hipy_js_优酷[官]",
+      "name": "优酷┃2K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/youku.js"
+    },
+    {
+      "key": "哔哩哔哩",
+      "name": "哔哔┃4K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/bltv.js"
+    },
+    {
+      "key": "爱奇艺",
+      "name": "奇奇┃2K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/qytv.js"
+    },
+    {
+      "key": "ouge",
+      "name": "讴歌┃4K",
+      "type": 4,
+      "api": "http://8088880.xyz:8080/video/ouge?token=8f32b5f2b5e44ba1"
+    },
+    {
+      "key": "labi",
+      "name": "蜡笔┃4K",
+      "type": 4,
+      "api": "http://8088880.xyz:8080/video/labi?token=8f32b5f2b5e44ba1"
+    },
+    {
+      "key": "libo",
+      "name": "立播┃4K",
+      "type": 4,
+      "api": "http://8088880.xyz:8080/video/libo?token=8f32b5f2b5e44ba1"
+    },
+    {
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/json",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "大陆综艺",
+        "喜剧片",
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "日韩动漫",
+        "欧美动",
+        "港台动漫",
+        "海外动",
+        "电影解说",
+        "体育",
+        "足球",
+        "篮球",
+        "网球",
+        "斯诺克",
+        "预告片",
+        "短剧",
+        "动画电影",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ],
+      "filterable": 1,
+      "key": "如意",
+      "name": "综合┃蓝光",
+      "playerType": 2,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 1
+    }
+  ],
+  "rules": [
+    {
+      "name": "头条",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "火山",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "饭团点击",
+      "hosts": [
+        "dadagui",
+        "freeok",
+        "dadagui"
+      ],
+      "script": [
+        "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+      ]
+    },
+    {
+      "name": "毛驴点击",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    },
+    {
+      "name": "ofiii",
+      "hosts": [
+        "www.ofiii.com"
+      ],
+      "script": [
+        "const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "壹米解析",
+      "type": 1,
+      "url": "https://coffee.1ljx.com:32000/api/?key=36d3e7f8-f971-44a7-9063-5db4f218491d&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    }
+  ]
+}
